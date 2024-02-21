@@ -53,21 +53,3 @@ export default function NewTask({ currentProject, updateTaskProject }) {
     </>
   );
 }
-/**
- *   // const updateList = {
-  //   ...currentProject[0],
-  //   currentProject: newTask,
-  // };
-  console.log(currentProject);
-
-      allProjects.map((project) => {
-    if (project.id === currentProject[0].id) {
-          const currentTask = task.current.value;
-          const setCurrentTask = [currentTask, ...prevTask];
-
-          currentProject[0].currentTask = setCurrentTask;
-
-          return setCurrentTask;
-        }
-      });
- */
