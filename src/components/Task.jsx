@@ -12,7 +12,7 @@ export default function Task({ currentProject, allProjects, updateList }) {
 
     cloneAllProjects.splice(findProject, 1);
 
-    return updateList(cloneAllProjects, true);
+    return updateList(cloneAllProjects, true); 
   }
 
   function handleUpdateTaskProject(tasks) {
